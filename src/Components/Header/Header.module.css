@@ -1,0 +1,12 @@
+.header {
+	padding: 40px 0;
+	background-color: #ffbc00;
+}
+.header > div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	fill: #000;
+}

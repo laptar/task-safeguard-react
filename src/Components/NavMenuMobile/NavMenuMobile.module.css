@@ -1,0 +1,47 @@
+.menuBtn {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	background-color: inherit;
+}
+.menuBtn::before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 18px;
+	height: 3px;
+	background-color: #000;
+	border-radius: 1px;
+	transition: transform 300ms ease-in-out;
+}
+.menuBtn::after {
+	content: "";
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+	width: 18px;
+	height: 3px;
+	background-color: #000;
+	border-radius: 1px;
+	transition: transform 300ms ease-in-out;
+}
+.menuBtn > div {
+	width: 30px;
+	height: 3px;
+	border-radius: 1px;
+	background-color: #000;
+	transition: transform 300ms ease-in-out;
+}
+
+.menuBtn.close > div {
+	transform: rotateZ(-45deg);
+}
+.menuBtn.close::before {
+	transform: translateY(4px) translateX(2px) rotateZ(45deg);
+}
+.menuBtn.close::after {
+	transform: translateY(-5px) translateX(-2px) rotateZ(45deg);
+}
