@@ -6,10 +6,10 @@ export const ContactForm = () => {
 		<div className={s.formSection}>
 			<div className="container">
 				<div className={s.titleBox}>
-					<h2 className={s.title}>
+					<h2 className={s.title} id="contactUs">
 						<span>CONTACT</span> US
 					</h2>
-					<a className={s.up} href="/">
+					<a className={s.up} href="#home">
 						<svg className={s.arrow} width={23} height={11}>
 							<use href={`${svg}#icon-arrow-up`}></use>
 						</svg>

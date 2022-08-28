@@ -1,4 +1,5 @@
 import s from "./Hero.module.css";
+import svg from "../../img/sprite.svg";
 
 export const Hero = () => {
 	return (
@@ -12,9 +13,15 @@ export const Hero = () => {
 					We are specialist in protecting your assets and reputation to make
 					sure you operate risk-free and focus on your core business.
 				</p>
-				<a className={s.more} href="/">
+				<a className={s.more} href="#home">
 					Learn More
 				</a>
+				<div className={s.arrCont}>
+					<svg className={s.arrow} width={30} height={16}>
+						<use href={`${svg}#icon-arrow`}></use>
+					</svg>
+					<p className={s.scroll}>Scroll</p>
+				</div>
 			</div>
 		</div>
 	);

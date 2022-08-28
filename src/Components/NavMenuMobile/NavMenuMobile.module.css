@@ -45,3 +45,34 @@
 .menuBtn.close::after {
 	transform: translateY(-5px) translateX(-2px) rotateZ(45deg);
 }
+.menu {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	overflow-y: scroll;
+	z-index: 100;
+	width: 100vw;
+	height: calc(100vh - 115px);
+	margin: 0 auto;
+	padding: 15px 24px;
+	background-color: #ffbc00;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: calc(100vh * 0.035);
+}
+
+.listTitle {
+	margin-top: calc(100vh * 0.07);
+	margin-bottom: calc(100vh * 0.035);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.6;
+	opacity: 0.5;
+}
+.listElm {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1;
+}
