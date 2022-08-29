@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/task-safeguard-react/static/css/main.6f90e01d.css",
+    "main.js": "/task-safeguard-react/static/js/main.8d4128bc.js",
+    "static/media/space-helmet.png": "/task-safeguard-react/static/media/space-helmet.b5fddaf3a5699c88d583.png",
+    "static/media/sprite.svg": "/task-safeguard-react/static/media/sprite.75195bf1733e2be837e2982a205872d9.svg",
+    "index.html": "/task-safeguard-react/index.html",
+    "main.6f90e01d.css.map": "/task-safeguard-react/static/css/main.6f90e01d.css.map",
+    "main.8d4128bc.js.map": "/task-safeguard-react/static/js/main.8d4128bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f90e01d.css",
+    "static/js/main.8d4128bc.js"
+  ]
+}
