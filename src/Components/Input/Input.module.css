@@ -1,0 +1,49 @@
+.lableItem {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.inputName {
+	font-family: "Ubuntu";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.16;
+	color: #999999;
+}
+.input {
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.input:focus {
+	outline: none;
+}
+
+.errMsg {
+	opacity: 0;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ef2828;
+}
+.input:invalid[focused="true"] {
+	border-bottom: 1px solid #ef2828;
+}
+.input:invalid[focused="true"] ~ .errMsg {
+	opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+	.input {
+		max-width: 511px;
+	}
+
+	.form {
+		align-items: flex-start;
+		padding-top: 50px;
+		padding-bottom: 70px;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
