@@ -51,7 +51,7 @@
 }
 @media screen and (min-width: 768px) {
 	.hero {
-		/* padding-top: 134px; */
+		padding-top: calc(136px + ((100vh - 876px) / 2));
 		min-height: calc(100vh - 142px);
 		background-size: auto 400px;
 		background-position: left calc((100vw - 250px) / 2 - 40px) bottom;
@@ -84,8 +84,8 @@
 
 		color: #000000;
 	}
-	.arrow {
-	}
+	/* .arrow {
+	} */
 }
 
 @media screen and (min-width: 1200px) {
